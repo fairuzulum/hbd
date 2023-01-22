@@ -33,7 +33,7 @@ function play() {//Link Audio Bisa Diganti
 var audio = new Audio('https://kuisberhadiah.likeadream.repl.co/musiktiktok.m4a');audio.play();audio.loop=true;audio.addEventListener('ended', function() {this.currentTime = 0;this.play();}, false);}         
 
 //Pesan WhatsApp
- function bukaWa(){window.location = "https://api.whatsapp.com/send?phone=&text=" + window.nama + " udah liat semuanya. Enak aja lu minta traktir :v" + "%0A%0A" + "Btw makasih udah ngucapin ><";} 
+ function bukaWa(){window.location = "https://api.whatsapp.com/send?phone=6281232195770&text=" + window.nama + " udah liat semuanya. Enak aja lu minta traktir :v" + "%0A%0A" + "Btw makasih udah ngucapin ><";} 
 </script>
  
 <script type="text/javascript">            
@@ -104,7 +104,7 @@ async function pilihwarna(){
   cancelButtonText: 'Merah',
 });
 if(warna){
-    await swals.fire('Yeayy!', 'Kalo kamu pilih <b>Biru</b> berarti harus traktirin gw ya &#129315;!');
+    await swals.fire('Yeayy!', 'Kalo kamu pilih <b>Biru</b> berarti harus traktirin aku ya &#129315;!');
     var { isConfirmed: warna2 } = await swals.fire({
     title: nama + ' yakin pilih warna Biru?', 
     text: 'Atau mau ganti warna aja nih?', showCancelButton: true,
@@ -120,7 +120,7 @@ if(warna2){
 }
 //Selingan
   } else {
-    await swals.fire('Yeayy!', 'Kalo kamu pilih <b>Merah</b> berarti harus traktirin gw ya &#129315;!');
+    await swals.fire('Yeayy!', 'Kalo kamu pilih <b>Merah</b> berarti harus traktirin aku ya &#129315;!');
     var { isConfirmed: warna2 } = await swals.fire({
     title: nama + ' yakin pilih warna Merah?', 
     text: 'Atau mau ganti warna aja nih?', showCancelButton: true,
